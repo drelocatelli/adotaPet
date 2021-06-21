@@ -18,9 +18,11 @@
 		}
 		require_once $file;
 	}else{	
-
-		header("Location: 404.php");
-
+		if(strpos($url, 'admin'){
+			
+		}else{
+			header("Location: 404.php");
+		}
 	}  
          
 ?>
