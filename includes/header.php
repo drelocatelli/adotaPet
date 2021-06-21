@@ -33,7 +33,7 @@
 
                 <div class="mobile" style="display:none;">
                     <li><a href="portal">Cadastre-se</a></li>
-                    <li><a href="/admin">Acesso funcionários</a></li>
+                    <li><a href="/admin/index.php">Acesso funcionários</a></li>
                 </div>
             </ul>
         <div class="portal">
