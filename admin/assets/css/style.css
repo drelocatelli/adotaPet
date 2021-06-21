@@ -1,0 +1,90 @@
+nav.bg-light {
+    background:#F28A88!important;
+}
+
+nav .nav-link{
+    color:white;
+}
+
+nav .nav-link:hover{
+    color:white;
+    opacity: 0.8;
+}
+
+nav .nav-link:focus{
+    color:white;
+    opacity: 0.8;
+}
+
+section{
+    margin-top:15vh;
+    display: grid;
+    place-content: center;
+}
+
+.row{
+    margin-bottom:10px;
+}
+
+table th{
+    text-align: center;
+}
+
+.alert-success {
+    color: #35b13a;
+    background-color: #c6f78c;
+    border-color: #badbcc;
+}
+
+.table input{
+    background:transparent;
+    outline:none;
+    border:0;
+}
+
+.table .textarea {
+    max-width: 800px;
+    max-height: 120px;
+    overflow-y: auto;
+    word-break: break-word;
+    display: block;
+    overflow-x: hidden;
+    padding: 2px 20px;
+    text-align: justify;
+}
+
+.table .action{
+    position:relative;
+}
+
+.table td{
+    text-align: center;
+}
+
+
+.table>:not(caption)>*>*{
+    border:2px solid #ccc;
+}
+
+.btn-primary{
+    background: linear-gradient(
+    90deg
+    , #ee6393 0%, #f39186 100%);
+    border:1px solid transparent;
+}
+
+.btn-primary:hover{
+    border:1px solid transparent;
+    opacity:0.9!important;
+}
+
+.form-control:focus, .btn-primary:focus{
+    border-color: #e91e6336;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(233 30 99 / 17%);
+}
+
+.temporary{
+    opacity: 1;
+    transition: opacity 2s;
+}
