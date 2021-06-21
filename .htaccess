@@ -18,5 +18,5 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
    # RewriteRule ^ index.php [L]
-    RewriteRule ^(.*)$ /Router.php?url=$1 [L]
+    RewriteRule ^(.*)$ Router.php?url=$1 [L]
 </IfModule>
