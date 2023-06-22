@@ -1,5 +1,4 @@
 <?php require_once('includes/header.php'); ?>
-
 <div style="clear:both;"></div>
 
 <div id="principal">
