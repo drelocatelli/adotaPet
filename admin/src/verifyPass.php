@@ -2,6 +2,6 @@
 
 session_start();
 
-if(!$_SESSION['loguin']){
-    header("Location: loguin.php");
+if (!$_SESSION['login']) {
+    header("Location: login.php");
 }

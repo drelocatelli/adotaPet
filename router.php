@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 
 $dir[1] = array('\\', 'C:/');
 $dir[2] = array('/', 'C://');

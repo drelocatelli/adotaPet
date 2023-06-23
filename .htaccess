@@ -2,4 +2,5 @@ RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^(.*)$ router.php?url=$1 [QSA,L]
+RewriteRule ^private/?$ - [F,L,NC]
 DirectoryIndex index.php

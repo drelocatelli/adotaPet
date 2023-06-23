@@ -7,7 +7,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
-  while($row = $result->fetch_assoc()) {
+  while ($row = $result->fetch_assoc()) {
     $site['title'] = $row['titulo'];
     $site['slogan'] = $row['slogan'];
     $site['descriptionTitle'] = $row['descTitle'];

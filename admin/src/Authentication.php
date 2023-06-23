@@ -1,21 +1,21 @@
 <?php
 
-    session_start();
+session_start();
 
-    require_once('../../src/Siteconfig.php');
+require_once('../../src/Siteconfig.php');
 
-    # default credential
-    $credential['password'] = $site['senha'];
+# default credential
+$credential['password'] = $site['senha'];
 
-    $_POST['password'] = strip_tags($_POST['password']);
+$_POST['password'] = strip_tags($_POST['password']);
 
-    if(isset($_POST['submit'])){
-        if($_POST['password'] == $credential['password']){
-            $_SESSION['loguin'] = true;
-            header("Location: ../loguin.php?status=success");
-        }else{
-            $_SESSION['loguin'] = false;
-            header("Location: ../loguin.php?status=error");
-        }
-
+if (isset($_POST['submit'])) {
+    if ($_POST['password'] == $credential['password']) {
+        $_SESSION['login'] = true;
+        header("Location: ../login.php?status=success");
+    } else {
+        $_SESSION['login'] = false;
+        header("Location: ../login.php?status=error");
     }
+
+}
